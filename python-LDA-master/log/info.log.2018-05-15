@@ -1,0 +1,43 @@
+2018-05-15 16:08:53,008 INFO 载入数据......
+2018-05-15 16:08:53,024 DEBUG 载入完成,准备生成字典对象和统计文本数据...
+2018-05-15 16:08:53,143 INFO 共有5586个文档
+2018-05-15 16:08:53,187 INFO 词与序号对应关系已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/wordidmap.dat
+2018-05-15 16:13:07,907 INFO 迭代完成。
+2018-05-15 16:13:07,909 DEBUG 计算文章-主题分布
+2018-05-15 16:13:07,949 DEBUG 计算词-主题分布
+2018-05-15 16:13:07,958 DEBUG 保存模型
+2018-05-15 16:13:07,958 INFO 文章-主题分布已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_theta.dat
+2018-05-15 16:13:08,075 INFO 词-主题分布已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_phi.dat
+2018-05-15 16:13:08,180 INFO 参数设置已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_parameter.dat
+2018-05-15 16:13:08,182 INFO 主题topN词已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_twords.dat
+2018-05-15 16:13:08,773 INFO 文章-词-主题分派结果已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_tassign.dat
+2018-05-15 16:13:08,980 INFO 模型训练完成。
+2018-05-15 16:13:09,457 DEBUG $HOME=/Users/apple
+2018-05-15 16:13:09,461 DEBUG matplotlib data path /Users/apple/venv/lib/python3.6/site-packages/matplotlib/mpl-data
+2018-05-15 16:13:09,480 DEBUG loaded rc file /Users/apple/venv/lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc
+2018-05-15 16:13:09,483 DEBUG matplotlib version 2.2.2
+2018-05-15 16:13:09,483 DEBUG interactive is False
+2018-05-15 16:13:09,483 DEBUG platform is darwin
+2018-05-15 16:13:09,483 DEBUG loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'posix', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_weakrefset', 'site', 'os', 'errno', 'stat', '_stat', 'posixpath', 'genericpath', 'os.path', '_collections_abc', '_bootlocale', '_locale', 'types', 'functools', '_functools', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'weakref', 'collections.abc', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'backports', 'mpl_toolkits', 'google', 'logging', 'time', 'traceback', 'linecache', 'tokenize', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'token', 'string', '_string', 'threading', 'atexit', 'logging.config', 'logging.handlers', 'socket', '_socket', 'selectors', 'math', 'select', 'pickle', 'struct', '_struct', '_compat_pickle', '_pickle', 'queue', 'socketserver', 'configparser', 'numpy', '__future__', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._import_tools', 'numpy.add_newdocs', 'numpy.lib', 'numpy.lib.info', 'numpy.lib.type_check', 'numpy.core', 'numpy.core.info', 'datetime', '_datetime', 'numpy.core.multiarray', 'numpy.core.umath', 'numpy.core._internal', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'pathlib', 'fnmatch', 'ntpath', 'urllib', 'urllib.parse', 'ctypes', '_ctypes', 'ctypes._endian', 'numpy.core.numerictypes', 'numbers', 'numpy.core.numeric', 'numpy.core.arrayprint', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.shape_base', 'numpy.core.einsumfunc', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'pprint', 'unittest.suite', 'unittest.loader', 'unittest.main', 'argparse', 'copy', 'textwrap', 'gettext', 'locale', 'unittest.runner', 'unittest.signals', 'signal', 'numpy.testing.decorators', 'numpy.testing.utils', 'shutil', 'tarfile', 'grp', 'pwd', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'tempfile', 'random', 'hashlib', '_hashlib', '_blake2', '_sha3', 'bisect', '_bisect', '_random', 'numpy.lib.utils', 'numpy.testing.nosetester', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.lib.function_base', 'numpy.lib.twodim_base', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'ast', '_ast', 'numpy.lib.stride_tricks', 'numpy.lib.mixins', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.scimath', 'numpy.lib.polynomial', 'numpy.linalg', 'numpy.linalg.info', 'numpy.linalg.linalg', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.financial', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy._distributor_init', 'numpy.fft', 'numpy.fft.info', 'numpy.fft.fftpack', 'numpy.fft.fftpack_lite', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random.info', 'cython_runtime', 'mtrand', 'numpy.random.mtrand', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'matplotlib', 'six', 'distutils', 'imp', 'opcode', '_opcode', '_virtualenv_distutils', 'distutils.dist', 'email', 'distutils.errors', 'distutils.fancy_getopt', 'getopt', 'distutils.util', 'distutils.dep_util', 'distutils.spawn', 'distutils.debug', 'distutils.log', 'distutils.sysconfig', 'distutils.version', 'inspect', 'dis', 'matplotlib.cbook', 'six.moves', 'glob', 'gzip', 'zlib', 'matplotlib.cbook.deprecation', 'matplotlib.cbook._backports', 'matplotlib.compat', 'matplotlib.compat.subprocess', 'subprocess', '_posixsubprocess', 'matplotlib.rcsetup', 'matplotlib.testing', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib._color_data', 'cycler', 'six.moves.urllib', 'six.moves.urllib.request', 'urllib.request', 'base64', 'binascii', 'http', 'http.client', 'email.parser', 'email.feedparser', 'email.errors', 'email._policybase', 'email.header', 'email.quoprimime', 'email.base64mime', 'email.charset', 'email.encoders', 'quopri', 'email.utils', 'email._parseaddr', 'calendar', 'email.message', 'uu', 'email._encoded_words', 'email.iterators', 'ssl', 'ipaddress', '_ssl', 'urllib.error', 'urllib.response', '_scproxy', 'matplotlib._version', 'json', 'json.decoder', 'json.scanner', '_json', 'json.encoder', 'dateutil', 'dateutil._version']
+2018-05-15 16:14:08,870 INFO 载入数据......
+2018-05-15 16:14:08,885 DEBUG 载入完成,准备生成字典对象和统计文本数据...
+2018-05-15 16:14:08,983 INFO 共有5586个文档
+2018-05-15 16:14:09,010 INFO 词与序号对应关系已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/wordidmap.dat
+2018-05-15 16:15:30,955 INFO 载入数据......
+2018-05-15 16:15:30,965 DEBUG 载入完成,准备生成字典对象和统计文本数据...
+2018-05-15 16:15:31,041 INFO 共有5586个文档
+2018-05-15 16:15:31,073 INFO 词与序号对应关系已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/wordidmap.dat
+2018-05-15 16:21:32,264 INFO 载入数据......
+2018-05-15 16:21:32,277 DEBUG 载入完成,准备生成字典对象和统计文本数据...
+2018-05-15 16:21:32,345 INFO 共有5586个文档
+2018-05-15 16:21:32,377 INFO 词与序号对应关系已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/wordidmap.dat
+2018-05-15 16:25:57,866 INFO 迭代完成。
+2018-05-15 16:25:57,868 DEBUG 计算文章-主题分布
+2018-05-15 16:25:57,917 DEBUG 计算词-主题分布
+2018-05-15 16:25:57,920 DEBUG 保存模型
+2018-05-15 16:25:57,921 INFO 文章-主题分布已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_theta.dat
+2018-05-15 16:25:58,025 INFO 词-主题分布已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_phi.dat
+2018-05-15 16:25:58,145 INFO 参数设置已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_parameter.dat
+2018-05-15 16:25:58,146 INFO 主题topN词已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_twords.dat
+2018-05-15 16:25:58,768 INFO 文章-词-主题分派结果已保存到/Users/apple/Desktop/毕业设计/processing/making/python-LDA-master/data/tmp/model_tassign.dat
+2018-05-15 16:25:59,000 INFO 模型训练完成。
